@@ -13,6 +13,7 @@
 		75E2A92A21250DA5009AA419 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E2A92821250DA5009AA419 /* Main.storyboard */; };
 		75E2A933212511D8009AA419 /* profile.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 75E2A932212511D7009AA419 /* profile.mobileprovision */; };
 		75E2A93521251612009AA419 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E2A93421251612009AA419 /* Profile.swift */; };
+		75E2A93721252624009AA419 /* Profile+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E2A93621252624009AA419 /* Profile+Init.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		75E2A92C21250DA5009AA419 /* Provision.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Provision.entitlements; sourceTree = "<group>"; };
 		75E2A932212511D7009AA419 /* profile.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = profile.mobileprovision; sourceTree = "<group>"; };
 		75E2A93421251612009AA419 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		75E2A93621252624009AA419 /* Profile+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+Init.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				75E2A92221250DA4009AA419 /* AppDelegate.swift */,
 				75E2A92421250DA4009AA419 /* ViewController.swift */,
 				75E2A93421251612009AA419 /* Profile.swift */,
+				75E2A93621252624009AA419 /* Profile+Init.swift */,
 				75E2A92621250DA5009AA419 /* Assets.xcassets */,
 				75E2A92821250DA5009AA419 /* Main.storyboard */,
 				75E2A92B21250DA5009AA419 /* Info.plist */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75E2A92521250DA4009AA419 /* ViewController.swift in Sources */,
+				75E2A93721252624009AA419 /* Profile+Init.swift in Sources */,
 				75E2A93521251612009AA419 /* Profile.swift in Sources */,
 				75E2A92321250DA4009AA419 /* AppDelegate.swift in Sources */,
 			);
