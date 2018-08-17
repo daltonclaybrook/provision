@@ -19,6 +19,7 @@ struct Profile {
   let applicationIdentifierPrefix: [String]
   let teamIdentifier: [String]
   let name: String
-  let provisionedDevices: [String]
+  let provisionedDevices: [String]?
   let appIDName: String
+  let provisionsAllDevices: Bool?
 }

@@ -14,7 +14,7 @@ class ViewController: NSViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    let profileURL = Bundle.main.url(forResource: "profile", withExtension: "mobileprovision")!
+    let profileURL = Bundle.main.url(forResource: "enterprise", withExtension: "mobileprovision")!
     let data = try! Data(contentsOf: profileURL)
     let profile = try! Profile(signedData: data)
     print("profile: \(profile)")
